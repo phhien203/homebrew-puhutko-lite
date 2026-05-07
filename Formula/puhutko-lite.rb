@@ -1,12 +1,12 @@
 class PuhutkoLite < Formula
   desc "Interactive Finnish dictionary app"
   homepage "https://github.com/phhien203/puhutko-lite"
-  version "1.0.2"
+  version "1.0.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/phhien203/puhutko-lite/releases/download/v1.0.2/puhutko-lite-darwin-arm64.tar.gz"
-      sha256 "1c7f7ab3fd9e5fb1520de2d84bf73ffa0e89aaa7d784e4f28c5c357ccec7c35a"
+      url "https://github.com/phhien203/puhutko-lite/releases/download/v1.0.4/puhutko-lite-darwin-arm64.tar.gz"
+      sha256 "d70075dc7d913cdb6cf4f748ebcdf1d85e37207c88e8f6d2d2ccaff4e7ab63cd"
     end
   end
 
